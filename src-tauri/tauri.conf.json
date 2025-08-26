@@ -1,0 +1,91 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "PD2 Sanctuary of Exile",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": ".*",
+        "scope": [{ "name": "PlugY", "cmd": "$RESOURCE/PlugY.exe", "args": ["-plugy"]}, { "name": "NotPlugy", "cmd": "$RESOURCE/Diablo II.exe", "args": ["-3dfx"]}],
+        "sidecar": true,
+        "execute": true
+      },
+      "process": {
+        "exit": true
+      },
+      "http": {
+        "all": true,
+        "request": true,
+        "scope": [
+          "https://github.com/Lukaszpg/PD2-Sanctuary-of-Exile/releases/latest/download/*",
+          "https://raw.githubusercontent.com/Lukaszpg/PD2-Sanctuary-of-Exile/refs/heads/main/pd2-sanctuary-of-exile.json"
+        ]
+      },
+      "fs": {
+        "all": true,
+        "scope": ["**"]
+      },
+      "path": {
+        "all": true
+      },
+      "protocol": {
+        "all": true,
+        "asset": true,
+        "assetScope": [""]
+      },
+      "dialog": {
+        "all": true
+      },
+      "app": {
+        "all": true
+      },
+      "window": {
+        "all": true
+      }
+    },
+    "windows": [
+      {
+        "title": "PD2 Sanctuary of Exile Launcher",
+        "width": 600,
+        "height": 540,
+        "resizable": false
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "pd2-sanctuary-of-exile-launcher",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "publisher": "MindH1ve" 
+    },
+    "updater": {
+      "active": false,
+      "endpoints": [
+        "https://gist.githubusercontent.com/synpoox/2fb7641ad580816732dee135d6df4798/raw/"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEQ1RjdBNTgwNTAyRUM0MDUKUldRRnhDNVFnS1gzMWU1bW91NkZPR1htTE1oY1NzZlVkcGRqVmZpeE1DOVo3am9FR2FJVnJxalUK",
+      "windows": {
+        "installMode": "passive",
+        "installerArgs": []
+      }
+    }
+  }
+}

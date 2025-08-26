@@ -1,0 +1,21 @@
+[package]
+name = "pd2-sanctuary-of-exile-launcher"
+version = "1.0.0"
+description = "PD2 Sanctuary of Exile Launcher"
+authors = ["MindH1ve"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+tauri-build = { version = "1", features = [] }
+
+[dependencies]
+tauri = { version = "1", features = [ "window-all", "app-all", "protocol-all", "dialog-all", "shell-execute", "http-all", "shell-sidecar", "process-exit", "path-all", "fs-all", "shell-open"] }
+serde = { version = "1", features = ["derive"] }
+tauri-plugin-log = { git = "https://github.com/tauri-apps/plugins-workspace", branch = "v1" }
+serde_json = "1"
+
+[features]
+# This feature is used for production builds or when a dev server is not specified, DO NOT REMOVE!!
+custom-protocol = ["tauri/custom-protocol"]
