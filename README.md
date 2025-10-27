@@ -54,4 +54,4 @@ b) Without PlugY:
 
 2. The launcher seems to be stuck on "Updating..." and the Play button is unavailable.
 
-**Solution:** Launch the `PD2 Single Player+ Launcher.exe` as admin. Make sure that anti-virus or firewall software is not blocking the connections.
+**Solution:** Launch the `PD2 Sanctuary of Exile Launcher.exe` as admin. Make sure that anti-virus or firewall software is not blocking the connections.
