@@ -59,3 +59,13 @@ b) Without PlugY:
 2. The launcher seems to be stuck on "Updating..." and the Play button is unavailable.
 
 **Solution:** Launch the `PD2 Sanctuary of Exile Launcher.exe` as admin. Make sure that anti-virus or firewall software is not blocking the connections.
+
+3. I have launched the game, but seems like the mod is not installed. 
+
+**Solution:** Make sure that "Offline mode" is not enabled in launcher settings.
+
+4. I get an error pictured below when I click "Play". 
+
+<img width="666" height="252" alt="image" src="https://github.com/user-attachments/assets/f439b311-0674-463b-a16d-717ab84a95bf" />
+
+**Solution:** You have wrong path to ProjectD2 folder set in the launcher settings. The launcher is attempting to launch the D2:LoD from the main folder, not the ProjectD2 mod from the ProjectD2 folder.
