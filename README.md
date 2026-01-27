@@ -56,11 +56,11 @@ b) Without PlugY:
 
 **Solution:** Open PlugY.ini file in your ProjectD2 directory, look for `ActiveShiftClickLimit=1` and change it to `ActiveShiftClickLimit=0`. 
 
-2. The launcher seems to be stuck on "Updating..." and the Play button is unavailable.
+2. The launcher displays an error "Access is denied" or other error message.
 
 **Solution:** Launch the `PD2 Sanctuary of Exile Launcher.exe` as admin. Make sure that anti-virus or firewall software is not blocking the connections.
 
-3. I have launched the game, but seems like the mod is not installed. 
+3. I have launched the game via launcher, but seems like the mod is not installed. 
 
 **Solution:** Make sure that "Offline mode" is not enabled in launcher settings.
 
