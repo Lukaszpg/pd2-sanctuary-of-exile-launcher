@@ -34,7 +34,8 @@ a) With PlugY:
 8. Adjust the path to your PD2 Single player directory from step 1 in `Project Diablo II Installation Directory`.
 9. Adjust the path where do you want your single player characters and stash to be stored in `Save Folder Directory`.
 10. Save the settings. Click play button.
-11. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
+11. In the main menu in the bottom left corner, you should see "SoE X.X.X", where X.X.X is the mod version.
+12. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
 
 b) Without PlugY:
 
@@ -46,7 +47,8 @@ b) Without PlugY:
 6. Adjust the path to your PD2 Single player directory from step 1 in "Project Diablo II Installation Directory".
 7. Adjust the path where do you want your single player characters and stash to be stored in "Save Folder Directory".
 8. Save the settings. Click play button.
-9. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
+9. In the main menu in the bottom left corner, you should see "SoE X.X.X", where X.X.X is the mod version.
+10. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
 
 ## Troubleshooting
 
