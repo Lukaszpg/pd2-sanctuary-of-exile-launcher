@@ -25,8 +25,8 @@ Requirements:
 3. Install the launcher downloaded in step 3 in the `ProjectD2` folder in your Diablo 2 game directory.
 4. Run **VANILLA PD2 LAUNCHER AT LEAST ONCE**. Click play and then exit the game.
 5. Run `PD2 Sanctuary of Exile.exe` as Administrator.
-6. Adjust the path to your PD2 Single player directory from step 1 in "Project Diablo II Installation Directory".
-7. Adjust the path where do you want your single player characters and stash to be stored in "Save Folder Directory".
+6. Adjust the path to your installation directory from step 1 in "Project Diablo II Installation Directory".
+7. Adjust the path where do you want your single player characters and stash to be stored in "Save Folder Directory". Recommended path is `<installation_directory>\Save`
 8. Select the `Loot Filter` tab, select the filter you would like to use (`Standard` is recommended) and click `Download Filter`.
 9. Launch official PD2 launcher, go to `Item Filter Profiles -> Select Local Filter -> Select the file you have pasted in subpoint b.`
 10. Save the settings. Click play button.
