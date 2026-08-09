@@ -18,55 +18,31 @@ Requirements:
 
 ## How to install
 
-a) With PlugY:
+**IMPORTANT!** Using PlugY is **NOT RECOMMENDED** as it is out dated and breaks many features of the mod.
 
-1. Copy your Diablo 2 game with Project Diablo 2 mod installed to a new directory.
-2. Install PD2 Plugy for SP in your `ProjectD2` folder in your Diablo2 directory by BetweenWalls: https://github.com/BetweenWalls/PD2-PlugY#pd2-plugy.
-
-   **WARNING - The materials tab introduced in season 11 will not work with Plugy!**
-   
-	2a. If you already have Plugy installed and played previous versions of this mod, please remove the contents of shared stash and create a new character.
-3. Download the [Latest Release](https://github.com/Lukaszpg/pd2-sanctuary-of-exile-launcher/releases) of PD2 Sanctuary of Exile launcher.
-4. Install the launcher downloaded in step 3 in the `ProjectD2` folder in your Diablo 2 directory.
-5. Run **VANILLA PD2 LAUNCHER AT LEAST ONCE**. Click play and then exit the game.
-6. Run `PD2 Sanctuary of Exile Launcher.exe` as Administrator.
-7. **IMPORTANT!** Click settings in the launcher in the top left corner and check the `Use PlugY` checkbox.
-8. Adjust the path to your PD2 Single player directory from step 1 in `Project Diablo II Installation Directory`.
-9. Adjust the path where do you want your single player characters and stash to be stored in `Save Folder Directory`.
-10. Save the settings. Click play button.
-11. In the main menu in the bottom left corner, you should see "SoE X.X.X", where X.X.X is the mod version.
-12. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
-
-b) Without PlugY:
-
-1. Copy your Diablo 2 game with Project Diablo 2 mod installed to a new directory.
+1. Head to [official PD2 site](https://www.projectdiablo2.com/download) and follow instructions (point 6 on that site can be disregarded).
 2. Download the [Latest Release](https://github.com/Lukaszpg/pd2-sanctuary-of-exile-launcher/releases) of PD2 Sanctuary of Exile launcher.
 3. Install the launcher downloaded in step 3 in the `ProjectD2` folder in your Diablo 2 game directory.
 4. Run **VANILLA PD2 LAUNCHER AT LEAST ONCE**. Click play and then exit the game.
 5. Run `PD2 Sanctuary of Exile.exe` as Administrator.
 6. Adjust the path to your PD2 Single player directory from step 1 in "Project Diablo II Installation Directory".
 7. Adjust the path where do you want your single player characters and stash to be stored in "Save Folder Directory".
-8. Save the settings. Click play button.
-9. In the main menu in the bottom left corner, you should see "SoE X.X.X", where X.X.X is the mod version.
-10. Head to Akara and look for an item with Alkor's quest potion graphics. If it's there, mod was installed successfully. GLHF!
+8. Select the `Loot Filter` tab, select the filter you would like to use (`Standard` is recommended) and click `Download Filter`.
+9. Launch official PD2 launcher, go to `Item Filter Profiles -> Select Local Filter -> Select the file you have pasted in subpoint b.`
+10. Save the settings. Click play button.
+11. Head to Akara and look for a green potion that has "Sanctuary of Exile" in the description. If it's there, mod was installed successfully. In the main menu, the bottom left corner should have information about game version, either `SoE XX.X.Y` for Standard mode and `SoE XX.X.YD` for damnation mode. GLHF!
 
 ## Troubleshooting
 
-1. I have launched the mod through PlugY exe, but it's not working with an error pictured below.
-
-![image](https://github.com/user-attachments/assets/5147e3cc-6e4b-49cd-9a65-bee7476d7dfb)
-
-**Solution:** Open PlugY.ini file in your ProjectD2 directory, look for `ActiveShiftClickLimit=1` and change it to `ActiveShiftClickLimit=0`. 
-
-2. The launcher displays an error "Access is denied" or other error message.
+1. The launcher displays an error "Access is denied" or other error message.
 
 **Solution:** Launch the `PD2 Sanctuary of Exile Launcher.exe` as admin. Make sure that anti-virus or firewall software is not blocking the connections.
 
-3. I have launched the game via launcher, but seems like the mod is not installed. 
+2. I have launched the game via launcher, but seems like the mod is not installed. 
 
 **Solution:** Make sure that "Offline mode" is not enabled in launcher settings.
 
-4. I get an error pictured below when I click "Play". 
+3. I get an error pictured below when I click "Play". 
 
 <img width="666" height="252" alt="image" src="https://github.com/user-attachments/assets/f439b311-0674-463b-a16d-717ab84a95bf" />
 
